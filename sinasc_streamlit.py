@@ -25,7 +25,7 @@ st.set_page_config(page_title = 'Sinasc RO - 2019',
 
 st.markdown("<h1 style='text-align: center; color: red;'> Análise Sinasc 2019 </h1>", unsafe_allow_html=True)
 
-sinasc = pd.read_csv(r'C:\Users\Meu Computador\anaconda3\EBAC\M15_Streamlit\SINASC_RO_2019.csv')
+sinasc = pd.read_csv('SINASC_RO_2019.csv')
 
 sinasc.DTNASC = pd.to_datetime(sinasc.DTNASC)
 
